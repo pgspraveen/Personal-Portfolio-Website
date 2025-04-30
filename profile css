@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  background: linear-gradient(to right, #333, #444);
+  padding: 15px 0;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar .container a {
+  color: #ffffff;
+  margin: 0 20px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.navbar .container a:hover {
+  color: #00aaff;
+}
+
+.header {
+  text-align: center;
+  padding: 40px 20px;
+  background: #1e1e1e;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #00aaff;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 28px;
+  color: #00aaff;
+}
+
+h2 {
+  color: #00d4ff;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.skills ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills li {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #cccccc;
+}
+
+.skills i {
+  margin-right: 10px;
+  color: #00ffcc;
+}
+
+.links a {
+  display: block;
+  margin: 10px 0;
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.links a i {
+  margin-right: 8px;
+  color: #00bfff;
+}
+
+.links a:hover {
+  color: #00aaff;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-form input[type="email"],
+.contact-form input[type="tel"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  background: #2e2e2e;
+  color: #ffffff;
+}
+
+.contact-form input[type="submit"] {
+  background: #00aaff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.contact-form input[type="submit"]:hover {
+  background: #008fcc;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #1a1a1a;
+  color: #777;
+  font-size: 14px;
+}
