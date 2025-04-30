@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pemmada Guna Sai Praveen - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <a href="#home">Home</a>
+      <a href="#summary">Summary</a>
+      <a href="#skills">Skills</a>
+      <a href="#links">Links</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <header class="header" id="home">
+    <img class="profile-pic" src="https://drive.google.com/uc?export=view&id=1S8Cc7MZ3UnVVIyv0brVA8pRISyt4mwHc" alt="Profile Picture">
+    <h1>Pemmada Guna Sai Praveen</h1>
+    <p>Aspiring Software Developer | Python, HTML, CSS, SQL</p>
+  </header>
+
+  <section id="summary">
+    <div class="container">
+      <h2>Summary</h2>
+      <p>To obtain a challenging and responsible position in a professional organization where I can contribute my best for the successful growth of an organization by utilizing my skills and hard work. I will put my efforts into improving both my professional and personal life.</p>
+    </div>
+  </section>
+
+  <section id="skills" class="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul>
+        <li><i class="fab fa-python"></i> Python</li>
+        <li><i class="fab fa-html5"></i> HTML</li>
+        <li><i class="fab fa-css3-alt"></i> CSS</li>
+        <li><i class="fas fa-database"></i> SQL</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="links" class="links">
+    <div class="container">
+      <h2>Links</h2>
+      <a href="mailto:gunasaipraveenpemmada@gmail.com"><i class="fas fa-envelope"></i> gunasaipraveenpemmada@gmail.com</a>
+      <a href="tel:9391312898"><i class="fas fa-phone"></i> 9391312898</a>
+      <a href="https://www.linkedin.com/in/guna-sai-praveen-pemmada-987457285/"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      <a href="https://github.com/pgspraveen"><i class="fab fa-github"></i> GitHub</a>
+      <a href="https://drive.google.com/file/d/1fBSuOsIwv2c7zDNhnu-ku7NocRzwuhW1/view?usp=drivesdk" target="_blank"><i class="fas fa-file"></i> Resume</a>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-form">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form>
+        <input type="email" placeholder="Your Email" required>
+        <input type="tel" placeholder="Your Phone Number" required>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Pemmada Guna Sai Praveen</p>
+  </footer>
+</body>
+</html>
