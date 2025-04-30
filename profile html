@@ -20,7 +20,7 @@
   </nav>
 
   <header class="header" id="home">
-    <img class="profile-pic" src="https://drive.google.com/uc?export=view&id=1S8Cc7MZ3UnVVIyv0brVA8pRISyt4mwHc" alt="Profile Picture">
+    <img class="profile-pic" src="pgsw2.jpeg" alt="Profile Picture">
     <h1>Pemmada Guna Sai Praveen</h1>
     <p>Aspiring Software Developer | Python, HTML, CSS, SQL</p>
   </header>
